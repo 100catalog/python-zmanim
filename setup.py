@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="zmanim",
-    version="0.2.1",
+    version="0.3.0",
     author="Pinny Markowitz",
     author_email="pinny@mwitz.com",
     description="A Zmanim library for Python",
@@ -17,9 +17,10 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
         "License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)",
         "Operating System :: OS Independent",
     ],
-    install_requires=['python-dateutil', 'julian'],
+    install_requires=['python-dateutil', 'julian', 'memoization'],
     python_requires='>=3.6'
 )

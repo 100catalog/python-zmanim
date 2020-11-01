@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 ### Added
+- repr() content for limudim structures
+
+## [0.3.0] - 2020-10-13
+### Added
 - Limudim support for: 
     - Parsha 
     - DafYomiBavli
@@ -15,11 +19,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
     - PirkeiAvos
     - TehillimMonthly
 - Kviah function for JewishDate
+- Memoization for better performance on common expensive JewishDate methods
 
 ### Fixed
 - Support for python-dateutil pre-2.7.0
+- Added Lag B'Omer as significant day / yom tov
 
-## [0.2.1] - 2018-01-09
+## [0.2.1] - 2019-01-09
 ### Fixed
 - Reintroduced future annotations as quoted type
 - Fixed bug on optimization branch for large increments/decrements
